@@ -1,0 +1,6 @@
+\\vyacheslavch.nice.com\d$\Slava\OneDrive\C#course_return\Lesson#1\Lesson1_HW\Lesson1_HW\bin\Debug\Lesson1_HW.exe.config
+\\vyacheslavch.nice.com\d$\Slava\OneDrive\C#course_return\Lesson#1\Lesson1_HW\Lesson1_HW\bin\Debug\Lesson1_HW.exe
+\\vyacheslavch.nice.com\d$\Slava\OneDrive\C#course_return\Lesson#1\Lesson1_HW\Lesson1_HW\bin\Debug\Lesson1_HW.pdb
+\\vyacheslavch.nice.com\d$\Slava\OneDrive\C#course_return\Lesson#1\Lesson1_HW\Lesson1_HW\obj\Debug\Lesson1_HW.csprojResolveAssemblyReference.cache
+\\vyacheslavch.nice.com\d$\Slava\OneDrive\C#course_return\Lesson#1\Lesson1_HW\Lesson1_HW\obj\Debug\Lesson1_HW.exe
+\\vyacheslavch.nice.com\d$\Slava\OneDrive\C#course_return\Lesson#1\Lesson1_HW\Lesson1_HW\obj\Debug\Lesson1_HW.pdb
