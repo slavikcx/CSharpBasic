@@ -240,3 +240,13 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+#my
+
+**/bin
+**/obj
+**/Properties
+
+**/*.csproj
+**/*.sln
+**/App.config
