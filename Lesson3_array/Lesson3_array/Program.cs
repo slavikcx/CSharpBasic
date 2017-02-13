@@ -15,11 +15,11 @@ namespace Lesson3_array
             
             Console.WriteLine("Please enter array lenght");
 
-            while (arrayLenght == 0 || arrayLenght>arrayMaxLenght) //checking if array lenght is not 0 and not grater than MaxLenght
+            while (arrayLenght <= 0 || arrayLenght>arrayMaxLenght) //checking if array lenght is not 0 and not grater than MaxLenght
             {
                 arrayLenght = Convert.ToInt32(Console.ReadLine());
 
-                if (arrayLenght == 0)
+                if (arrayLenght <= 0)
                 {
                     Console.WriteLine("Please enter value greater than 0");
                 } else if(arrayLenght > arrayMaxLenght)
@@ -47,7 +47,7 @@ namespace Lesson3_array
 
         static int MaxValue(int [] array)
         {
-            int maxVal = 0;
+            int maxVal = array[0];
             for (int i = 0; i < array.Length; i++)
             {
                 if (maxVal < array[i])
