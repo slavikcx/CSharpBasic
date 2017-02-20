@@ -39,7 +39,7 @@ namespace Queue
         {
             int value = 0;
 
-            Console.WriteLine("Dequeued value is {0}", queue[head]);
+            value = queue[head];
 
             if (head == queue.Length - 1)
             {

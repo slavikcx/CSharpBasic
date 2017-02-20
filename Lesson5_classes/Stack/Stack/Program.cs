@@ -58,7 +58,8 @@ namespace Stack
                     case 2:
                         if (!userStack.IsEmpty())
                         {
-                            userStack.Pop();
+                            
+                            Console.WriteLine("Poped value is {0}", userStack.Pop());
                             userStack.Print();
                         }
                         else

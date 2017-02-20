@@ -55,7 +55,7 @@ namespace Queue
                     case 2:
                         if (!userQueue.isEmpty())
                         {
-                            userQueue.Dequeue();
+                            Console.WriteLine("Dequeued value is {0}", userQueue.Dequeue());
 
                         }
                         else

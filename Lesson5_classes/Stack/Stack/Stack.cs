@@ -23,7 +23,7 @@ namespace Stack
         {
             int value = 0;
 
-            Console.WriteLine("Poped value is {0}", stack[top]);
+            value = stack[top];
             top--;
 
             return value;
