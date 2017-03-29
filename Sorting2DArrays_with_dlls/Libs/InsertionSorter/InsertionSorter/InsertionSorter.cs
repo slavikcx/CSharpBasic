@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HW_Sorting_2d_array
+﻿
+namespace Sorters
 {
-    class InsertionSorter : Sorter
+    public class InsertionSorter : Sorter
     {
         public InsertionSorter(int[,] arrayToSort) : base(arrayToSort)
         {
@@ -37,13 +32,11 @@ namespace HW_Sorting_2d_array
             }
 
             return array;
-
         }
 
         public override string ToString()
         {
             return "Isertion sorter";
         }
-
     }
 }

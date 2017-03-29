@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HW_Sorting_2d_array
+﻿
+namespace Sorters
 {
-    class QuickSorter : Sorter
+    public class QuickSorter : Sorter
     {
         public QuickSorter(int[,] arrayforSorting) : base(arrayforSorting)
         {
@@ -15,7 +10,6 @@ namespace HW_Sorting_2d_array
 
         public override int[] Sort(bool isDescending)
         {
-
             Quicksort(array);
 
             // checking if we need to invert array
@@ -25,7 +19,6 @@ namespace HW_Sorting_2d_array
             }
 
             return array;
-
         }
 
         private void Quicksort(int[] ar)
@@ -47,7 +40,7 @@ namespace HW_Sorting_2d_array
                 else if (ar[j] > pivot) j--;
                 else
                 { // Swap ith and jth elements
-                    int m = ar[i]; ar[i] = ar[j]; ar[j] = m;
+                    Swap(i, j);
                 }
             }
             // Now i == j

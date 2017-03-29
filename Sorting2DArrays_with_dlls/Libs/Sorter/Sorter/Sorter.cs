@@ -1,25 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Sorters.Common;
 
-namespace HW_Sorting_2d_array
+namespace Sorters
 {
-    abstract class Sorter : ISorter
+    public abstract class Sorter : ISorter
     {
-
-       // protected int[,] array2d;// I J
         protected int[] array;
 
         public Sorter(int[,] arrayforSorting)
         {
-            //array2d = arrayforSorting;
             array = SorterUtils.ConvertArrayTo1D(arrayforSorting); //converting 2d array to 1d in constuctor
-            //array2d = arrayforSorting;
         }
-        
-            //Method for swapping values in array
+
+        //Method for swapping values in array
         protected void Swap(int index1, int index2)
         {
             int temp;
@@ -30,7 +22,6 @@ namespace HW_Sorting_2d_array
         }
 
         public abstract int[] Sort(bool isDescending);
-
-
+        
     }
 }

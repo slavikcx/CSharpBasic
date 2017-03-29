@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HW_Sorting_2d_array
+﻿
+namespace Sorters
 {
-    class SelectionSorter : Sorter
+    public class SelectionSorter : Sorter
     {
         public SelectionSorter(int[,] arrayforSorting) : base(arrayforSorting)
         {
@@ -15,9 +10,8 @@ namespace HW_Sorting_2d_array
 
         public override int[] Sort(bool isDescending)
         {
-
             selectSort(array);
-            // checking if we need to invert array
+           
             // checking if we need to invert array
             if (isDescending)
             {
@@ -25,7 +19,6 @@ namespace HW_Sorting_2d_array
             }
 
             return array;
-
         }
 
         private void selectSort(int[] arr)

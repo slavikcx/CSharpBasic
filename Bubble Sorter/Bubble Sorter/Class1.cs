@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW_Sorting_2d_array
+namespace Bubble_Sorter
 {
-    interface ISorter
+    public class Class1
     {
-        int [] Sort(bool isDescending);
     }
 }
